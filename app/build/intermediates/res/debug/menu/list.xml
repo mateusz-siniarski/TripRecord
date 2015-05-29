@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+     xmlns:Routes="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/list"
+        android:orderInCategory="2"
+        Routes:showAsAction="always"
+        android:onClick="showList"
+        android:title="@string/list"
+        android:icon="@drawable/list"/>
+
+</menu>
+<!-- From: file:/Users/Mateusz/AndroidstudioProjects/Routes/app/src/main/res/menu/list.xml -->

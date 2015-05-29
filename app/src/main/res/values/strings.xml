@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Routes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_stop">Start/Stopp</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="go">Go</string>
+    <string name="drive">Drive</string>
+    <string name="chooseActivity">Choose activity:</string>
+    <string name="startActivity">Start Activity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_list">List</string>
+    <string name="list">List</string>
+    <string name="title_activity_data_of">DataOfActivity</string>
+    <string name="title_activity_data_fragment">DataFragment</string>
+    <string name="title_activity_map_fragment">MapFragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_unit_select">Select your distance unit:</string>
+    <string name="settings_vib_interval">Select your vibration interval:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="stop">Stop</string>
+
+</resources>

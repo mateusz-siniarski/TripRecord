@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.gps_cord.routes.DataOfActivity" >
+
+    <fragment class="com.gps_cord.routes.DataFragment"
+        android:id="@+id/dataFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <fragment class="com.gps_cord.routes.MapFragment"
+        android:id="@+id/mapFragment"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

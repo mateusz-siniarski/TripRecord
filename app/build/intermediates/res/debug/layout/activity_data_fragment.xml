@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gps_cord.routes.DataFragment"
+    tools:ignore="MergeRootFrame" >
+<TextView
+        android:id="@+id/textView_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="32dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/textView_Speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_Date"
+        android:layout_marginLeft="29dp"
+        android:text="Speed" />
+
+    <TextView
+        android:id="@+id/textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_Speed"
+        android:layout_marginLeft="29dp"
+        android:text="Time elapsed" />
+
+    <TextView
+        android:id="@+id/textView_MaxSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_time"
+        android:layout_marginLeft="29dp"
+        android:text="Speed" />
+
+    <TextView
+        android:id="@+id/textView_Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_MaxSpeed"
+        android:layout_marginLeft="29dp"
+        android:text="Distance" />
+
+    <TextView
+        android:id="@+id/textView_MaxAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_Distance"
+        android:layout_marginLeft="29dp"
+        android:text="Max Altitude" />
+
+    <TextView
+        android:id="@+id/textView_MinAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_MaxAltitude"
+        android:layout_marginLeft="29dp"
+        android:text="Min Altitude" />
+    </RelativeLayout><!-- From: file:/Users/Mateusz/AndroidstudioProjects/Routes/app/src/main/res/layout/activity_data_fragment.xml -->
